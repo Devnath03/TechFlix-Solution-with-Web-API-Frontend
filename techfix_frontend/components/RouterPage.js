@@ -9,6 +9,7 @@ import Cart from './Cart';
 import AdminDashboard from './AdminDashboard';
 import AdminOrder from './AdminOrder';
 import AdminProducts from './AdminProducts';
+import CustomerList from './CustomerList';
 
 
 export default function RouterPage (){
@@ -25,6 +26,7 @@ export default function RouterPage (){
                 <Route path='/' element={<AdminDashboard/>}/>
                 <Route path='/' element={<AdminOrder/>}/>
                 <Route path='/' element={<AdminProducts/>}/>
+                <Router path='/' element={<CustomerList/>}/>
 
             </Routes> 
         </Router>
