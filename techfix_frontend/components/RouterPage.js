@@ -6,18 +6,26 @@ import Dashboard from './Dashboard';
 import Orders from './Orders';
 import Profile from './Profile';
 import Cart from './Cart';
+import AdminDashboard from './AdminDashboard';
+import AdminOrder from './AdminOrder';
+import AdminProducts from './AdminProducts';
 
 
 export default function RouterPage (){
     return(
         <Router>
             <Routes>
-                <Router path='/' element={<Login/>}/>
-                <Router path='/' element={<Registration/>}/>
-                <Router path='/' element={<Dashboard/>}/>
-                <Router path='/' element={<Orders/>}/>
-                <Router path='/' element={<Profile/>}/>
-                <Router path='/' element={<Cart/>}/>
+                <Route path='/' element={<Login/>}/>
+                <Route path='/' element={<Registration/>}/>
+                <Route path='/' element={<Dashboard/>}/>
+                <Route path='/' element={<Orders/>}/>
+                <Route path='/' element={<Profile/>}/>
+                <Route path='/' element={<Cart/>}/>
+
+                <Route path='/' element={<AdminDashboard/>}/>
+                <Route path='/' element={<AdminOrder/>}/>
+                <Route path='/' element={<AdminProducts/>}/>
+
             </Routes> 
         </Router>
 
