@@ -18,13 +18,12 @@ TechFlix aims to simplify the process of discovering, streaming, and managing te
 
 ## Tech Stack
 
-- **Frontend:** (e.g., React, Vue, Angular)  
-- **Backend/API:** (e.g., ASP.NET Core Web API, Node.js, Django REST Framework)  
-- **Database:** (e.g., SQL Server, PostgreSQL, MongoDB)  
-- **Authentication:** JWT or OAuth  
-- **Other:** Docker, CI/CD with GitHub Actions
+- **Frontend:** (e.g., React)  
+- **Backend/API:** (e.g., ASP.NET Core Web API,REST Framework)  
+- **Database:** (e.g., SQL Server)   
+- **Other:** GitHub Actions
 
-> _Replace with actual technologies used in your project if different._
+
 
 ## Getting Started
 
