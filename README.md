@@ -3,17 +3,6 @@
 Welcome to **TechFlix Solution with Web API Frontend**!  
 This project is designed to provide a robust platform for streaming technology-related content with a modern web API-driven frontend.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Overview
 
 TechFlix aims to simplify the process of discovering, streaming, and managing technology-centric videos through a seamless frontend interface powered by a comprehensive Web API.
